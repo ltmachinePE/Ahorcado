@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='Juego Ahorcado desafío Alura'>
+    <meta name='keywords' content='Juedo ahorcado propuesto como desafío del curso para principiantes de ALURA'>
+    <link rel="shortcut icon" href="img/icon-H.png" type="image/x-icon">
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/redes.css'>
+
+    <title>ahorcadito</title>
+</head>
+<body>
+    <header>
+        <marquee behavior='alternate' scrollamount='20'><h1><strong>JUEGO DEL AHORCADO</strong></h1></MARQUEE>
+        <div class="divAlura">
+        <marquee class='alura' style='height:80px'  scrollamount='50'>
+            <span><img src='img/Vector.png'></span>
+            <span class="aluraTxt">lura Latam</span>
+        </marquee>
+    </div>
+    </header>
+    <main>
+        <div class='caja'>
+            <div class="indicacion">
+                <div class="cajaArriba">
+                <ul>
+                    <div>
+                        <h2  class="titulo">Juego del Ahorcado</h2>
+                    </div>
+                    <div class="parrafoLi">
+                        <li class="parrafo">El juego del ahorcado consiste en adivinar palabras.</li>
+                        <li class="parrafo">Las palabras serán seleccionadas aleatoriamente de una lista.</li>
+                        <li class="parrafo">El juego tiene una ayuda indicando el género de la palabra.</li>
+                        <li class="parrafo">Tendrá cinco intentos.</li>
+                        <li class="parrafo">Podrás ingresar tus propias palabras a la lista del juego.</li>
+                        <li class="parrafo">Al ingresar una letra podrás presionar ENTER o el botón COMPROBAR.</li>
+                        <li class="parrafo">Sumas 100 puntos x letra y 1000 por palabra.</li>
+                        <li class="parrafo">Perdes 500 puntos x juego.</li>
+                    </div>
+                </ul>
+            </div>
+        </div>        
+
+            <div class="botones">
+                <a href='juego.html'><button id='btnIniciarJuego' class="btn" onclick="btnInicio">JUGAR</button></a>
+            </div>
+        </div>
+
+</main>
+
+<footer>
+    <div class='redes'>
+        <span class='red'>
+            <a target='blanck' href='https://www.facebook.com/'><img class='imgFooter' src='./img/facebook.png' id='facebook'></a>
+        </span>
+
+        <span class='red'>
+            <a target='_blank' href='https://github.com/'><img class='imgFooter' src='./img/github.png' id='github'></a>
+        </span>
+
+        <span class='red'>
+            <a target='_blank' href='https://www.linkedin.com/'><img class='imgFooter' src='./img/linkedin.png' id='linkedin'></a>
+        </span>
+
+        <span class='red'>
+            <a target='_blank' href='https://twitter.com/home'><img class='imgFooter' src='./img/twitter.png' id='twitter'></a>
+        </span>
+    </div>
+    <div>
+        <span>
+            <p id='copyright'>ltmachine</p>
+            <p id='copyright'>&copy Copyright - 2022</p>
+        </span>
+    </div>
+</footer>
+
+
+<script src='js/ahorcado.js'></script>
+</body>
+</html>
